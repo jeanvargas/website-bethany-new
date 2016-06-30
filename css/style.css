@@ -59,6 +59,7 @@ body {
 
 #main-menu li {
   font-family: Lato;
+  color: #888686;
   font-size: 16px;
   display: inline-block;
   padding: 30px 20px;
@@ -70,6 +71,18 @@ body {
 
 li {
   margin: 0;
+}
+
+li:hover:not(.active) {
+	border-bottom: 5px solid #70a590;
+	box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  /*  background-color: #C0BEBE;*/
+	color: #000;
+}
+
+.active {
+background-color:#C0BEBE;
+color: #000;
 }
 
 .drop {
