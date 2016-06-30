@@ -35,7 +35,7 @@ body {
 }
 
 .page_block {
-	overflow-x: hidden;
+	/*overflow-x: hidden;*/
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
@@ -45,9 +45,7 @@ body {
 	padding-right:15px;	
 }
 
-#header {
-	position: static;
-	}
+
 #top_box {
 	background-color: #3A3939;
 }
@@ -56,7 +54,6 @@ body {
 z-index:9999;
 	/*width:1170px;*/
 	border-bottom:2px solid #ededed;
-	position: fixed;
   list-style: none;
   background: #FDFDFD;
   display: inline-block;
