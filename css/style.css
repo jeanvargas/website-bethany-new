@@ -75,9 +75,9 @@ li {
   list-style: none;
   position: absolute;
   padding: 0;
-  width: 100%;
+  width: 50%;
   left: 0;
-  top: 48px;
+  /*top: 48px;*/
 }
 
 .drop div {
@@ -94,11 +94,11 @@ li {
 .drop li {
   display: block;
   padding: 0;
-  width: 100%;
+ /* width: 100%;*/
   background: #3E8760 !important;
 }
 
-#marker {
+/*#marker {
   height: 6px;
   background: #3E8760 !important;
   position: absolute;
@@ -162,4 +162,4 @@ li {
   -moz-transform: translate(360px, 0);
   -ms-transform: translate(360px, 0);
   transform: translate(360px, 0);
-}
+}*/
