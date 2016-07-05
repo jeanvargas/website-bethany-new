@@ -49,6 +49,7 @@ body {
 	margin-top:-8px;
 	height: 80px;
 	z-index:9999;
+	position: relative;
 	/*width:1170px;
 	border-bottom:2px solid #ededed;*/
   	list-style: none;
@@ -86,16 +87,25 @@ color: #000;
 }
 
 .drop {
-  overflow: hidden;
+  display: none;
+  list-style: none;
+  float: left;
+  padding: 0;
+ /* overflow: hidden;
   list-style: none;
   position: absolute;
   padding: 0;
   width: 50%;
   left: 0;
-  /*top: 48px;*/
+  top: 48px;*/
 }
 
-.drop div {
+.has_dropdown:hover .drop {
+	display: block;
+	
+}
+
+/*.drop div {
   -webkit-transform: translate(0, -100%);
   -moz-transform: translate(0, -100%);
   -ms-transform: translate(0, -100%);
@@ -109,9 +119,8 @@ color: #000;
 .drop li {
   display: block;
   padding: 0;
- /* width: 100%;*/
   background: #3E8760 !important;
-}
+}*/
 
 /*#marker {
   height: 6px;
