@@ -45,13 +45,84 @@ body {
 	background-color: #3A3939;
 }
 
-#main-menu {
+ul {
+	text-align: left;
+	margin: 0;
+	z-index:9999;
+	position: relative;
+	padding-left: 0;
+	color: #888686;
+	
+	list-style: none;
+	font-family: Lato;
+	font-size:16px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+	background: #FDFDFD;
+
+}
+
+ul li {
+	display: inline-block;
+	margin-right: -4px;
+	position: relative;
+	padding: 30px 20px;
+	transition: all .2s;
+	border-bottom: 6px solid #fff;
+}
+
+ul li:hover {
+	border-bottom: 6px solid #70a590;
+	color: #000;
+	transition: all .8s;
+}
+
+ul li ul {
+	padding-top: 30px;
+	position: absolute;
+	top: 48px;
+	left: 0;
+	width: 150px;
+	box-shadow: none;
+	display: none;
+	opacity: 0;
+	visibility: hidden;
+	transition: all 0.2s;
+	
+}
+
+ul li ul li {
+	background: #70a590;
+	border-bottom: 6px solid #70a590;
+	display: block;
+	color: #fff;
+	transition: all 2s;
+		
+}
+
+ul li ul li:hover { 
+/*	background: #666; */
+	background: #70a590;
+	border-bottom: 6px solid #70a590;
+	box-shadow: none;
+}
+
+ul li:hover ul {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+
+
+a:visited {
+	color: #888686;
+}
+
+/*#main-menu {
 	margin-top:-8px;
 	height: 80px;
 	z-index:9999;
 	position: relative;
-	/*width:1170px;
-	border-bottom:2px solid #ededed;*/
+	
   	list-style: none;
   	background: #FDFDFD;
   	padding: 0;
@@ -64,10 +135,7 @@ body {
   font-size: 16px;
   display: inline-block;
   padding: 30px 20px;
- /* cursor: pointer;*/
   z-index: 5;
-  /*min-width: 120px;*/
-
 }
 
 li {
@@ -77,7 +145,6 @@ li {
 li:hover:not(.active) {
 	border-bottom: 5px solid #70a590;
 	box-shadow: 0 0 10px rgba(0,0,0,0.3);
-  /*  background-color: #C0BEBE;*/
 	color: #000;
 }
 
@@ -91,99 +158,12 @@ color: #000;
   list-style: none;
   float: left;
   padding: 0;
- /* overflow: hidden;
-  list-style: none;
-  position: absolute;
-  padding: 0;
-  width: 50%;
-  left: 0;
-  top: 48px;*/
+
 }
 
 .has_dropdown:hover .drop {
 	display: block;
 	
 }
+*/
 
-/*.drop div {
-  -webkit-transform: translate(0, -100%);
-  -moz-transform: translate(0, -100%);
-  -ms-transform: translate(0, -100%);
-  transform: translate(0, -100%);
-  -webkit-transition: all 0.5s 0.1s;
-  -moz-transition: all 0.5s 0.1s;
-  -ms-transition: all 0.5s 0.1s;
-  transition: all 0.5s 0.1s;
-  position: relative;
-}
-.drop li {
-  display: block;
-  padding: 0;
-  background: #3E8760 !important;
-}*/
-
-/*#marker {
-  height: 6px;
-  background: #3E8760 !important;
-  position: absolute;
-  bottom: 0;
-  width: 120px;
-  z-index: 2;
-  -webkit-transition: all 0.35s;
-  -moz-transition: all 0.35s;
-  -ms-transition: all 0.35s;
-  transition: all 0.35s;
-}
-
-
-#main-menu li:nth-child(1):hover ul div {
-  -webkit-transform: translate(0, 0);
-  -moz-transform: translate(0, 0);
-  -ms-transform: translate(0, 0);
-  transform: translate(0, 0);
-}
-#main-menu li:nth-child(1):hover ~ #marker {
-  -webkit-transform: translate(0px, 0);
-  -moz-transform: translate(0px, 0);
-  -ms-transform: translate(0px, 0);
-  transform: translate(0px, 0);
-}
-
-#main-menu li:nth-child(2):hover ul div {
-  -webkit-transform: translate(0, 0);
-  -moz-transform: translate(0, 0);
-  -ms-transform: translate(0, 0);
-  transform: translate(0, 0);
-}
-#main-menu li:nth-child(2):hover ~ #marker {
-  -webkit-transform: translate(120px, 0);
-  -moz-transform: translate(120px, 0);
-  -ms-transform: translate(120px, 0);
-  transform: translate(120px, 0);
-}
-
-#main-menu li:nth-child(3):hover ul div {
-  -webkit-transform: translate(0, 0);
-  -moz-transform: translate(0, 0);
-  -ms-transform: translate(0, 0);
-  transform: translate(0, 0);
-}
-#main-menu li:nth-child(3):hover ~ #marker {
-  -webkit-transform: translate(240px, 0);
-  -moz-transform: translate(240px, 0);
-  -ms-transform: translate(240px, 0);
-  transform: translate(240px, 0);
-}
-
-#main-menu li:nth-child(4):hover ul div {
-  -webkit-transform: translate(0, 0);
-  -moz-transform: translate(0, 0);
-  -ms-transform: translate(0, 0);
-  transform: translate(0, 0);
-}
-#main-menu li:nth-child(4):hover ~ #marker {
-  -webkit-transform: translate(360px, 0);
-  -moz-transform: translate(360px, 0);
-  -ms-transform: translate(360px, 0);
-  transform: translate(360px, 0);
-}*/
