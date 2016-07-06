@@ -176,13 +176,14 @@ a:visited {
 #audio_messages {
 	background:#fff;
 	position: relative;
-	padding: 15px 15px 15px 15px;
+	padding: 30px 30px 30px 30px;
 }
 
 .message {
 		position: relative;
 		background: #BCBCBC;
 		padding: 15px 15px 15px 15px;
+		border: 1px solid #615853;
 }
 
 .title {
@@ -195,6 +196,24 @@ a:visited {
 .date {
 	font-family: 'PT Serif Caption', serif;
 	font-size:14px;
-	padding-top:15px;
 }
 
+.subtitle {
+	font-style: italic;
+}
+
+.parent {
+  width: 90%;
+  background-color: #9A9999;
+  margin: 10px auto;
+  position: relative;
+  text-align:center;
+}
+
+.child {
+  background: green;
+  height: 300px;
+  width: 300px;
+  display:inline-block;
+  margin: 10px;
+}
