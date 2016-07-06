@@ -179,15 +179,22 @@ a:visited {
 	padding: 15px 15px 15px 15px;
 }
 
-#message {
+.message {
 		position: relative;
 		background: #BCBCBC;
 		padding: 15px 15px 15px 15px;
 }
 
-#title {
+.title {
 	font-family: Lato;
+	font-size:18px;
 	color:#615853;
 	text-transform:uppercase;
+}
+
+.date {
+	font-family: 'PT Serif Caption', serif;
+	font-size:14px;
+	padding-top:15px;
 }
 
