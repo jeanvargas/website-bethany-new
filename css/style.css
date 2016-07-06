@@ -36,6 +36,9 @@ body {
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
 
+a {
+	text-decoration: none;
+}
 #wrapper {
 	/*padding-left:15px;
 	padding-right:15px;	*/
@@ -147,6 +150,19 @@ a:visited {
 	padding-top: 15px;
 	padding-left:15px;
 	padding-right:15px;	
+}
+
+#page_description {
+	font-family: Montserrat;
+	text-transform:uppercase;
+	font-size: 24px;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+	color: #fff;
+	background: #70a590;
+	padding-top:30px;
+	padding-left:30px;
+	padding-right:30px;	
+	padding-bottom:30px;
 }
 
 
