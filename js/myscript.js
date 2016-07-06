@@ -15,5 +15,13 @@
 });*/
 
 jQuery(window).load(function(){
-      $("#main-menu").sticky({ topSpacing: 0 });
+      $("#main-menu").sticky({ topSpacing: 0});
     });
+jQuery(window).load(function(){
+	//Top Slider
+	$('.flexslider.slideshow').flexslider({
+		animation: "fade",
+		controlNav: true,
+		directionNav: false
+	});
+});

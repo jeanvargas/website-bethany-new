@@ -9,8 +9,8 @@
 
 <script src="js/jquery-1.12.3.min.js" type="text/javascript"></script>
 <script src="js/jquery.sticky.js" type="text/javascript"></script>
+<script src="js/jquery.flexslider-min.js" type="text/javascript"></script>
 <script src="js/myscript.js" type="text/javascript"></script>
-
 </head>
 <body>
 
@@ -19,7 +19,9 @@
     <!--CONTAINER-->
     <div class="container">
    	<div id="top_box"><img src="images/logo.png" height="160"></div>
-                 <!--MENU-->
+            
+            <!--MENU-->
+            <div id="menu">
             <ul id="main-menu">
                <a href="#"><li>WELCOME</li></a>
                 <li class="has_dropdown">ABOUT
@@ -40,18 +42,21 @@
                 <li>RESOURCES</li>
                 <div id="marker"></div>
             </ul>
-            <!--/MENU-->     
-            
-          <!--  <ul>
-            <li>One</li>
-            <li>Two <ul>
-            	<li>Hey</li>
-                <li>Hi</li>
-            	</ul></li>
-            </ul>   --> 
+            </div>    
+            <!--/MENU--> 
            
         <!--WRAPPER-->
         <div id="wrapper">
+        
+       <!--SLIDESHOW-
+        <div class="flexslider slideshow">
+            <ul class="slides">
+                <li class="slide1"><img src="images/slide1_bg.jpg" /> </li>
+                <li class="slide2"><img src="images/slide2_bg.jpg" /> </li>
+                <li class="slide3"><img src="images/slide3_bg.jpg" /> <div class="appear b"></div> </li>
+            </ul>
+        </div>
+        <!--/SLIDESHOW-->
 
             BLAH BLAH
             <br>
