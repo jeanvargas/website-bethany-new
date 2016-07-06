@@ -123,4 +123,30 @@ a:visited {
 	color: #888686;
 }
 
+#blue {
+	background: #70a590;
+	height: 30px;
+}
+
+.footer {
+	background: #3A3939;
+	height: 150px;
+	font-family: Lato;
+	color: #888686;
+	text-transform:uppercase;
+	padding-top: 15px;
+	padding-left:15px;
+	padding-right:15px;	
+}
+
+
+.copyright {
+	font-family: Lato;
+	font-size: 12px;
+	height: 30px;
+	padding-top: 15px;
+	padding-left:15px;
+	padding-right:15px;	
+}
+
 
