@@ -18,8 +18,8 @@ jQuery(window).load(function(){
       $("#main-menu").sticky({ topSpacing: 0});
     });
 	
-	$(window).load(function() {
+	jQuery(window).load(function() {
   $('.flexslider').flexslider({
-    animation: "slide"
+    animation: "fade"
   });
 });
