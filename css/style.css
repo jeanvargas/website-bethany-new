@@ -37,8 +37,8 @@ body {
 }
 
 #wrapper {
-	padding-left:15px;
-	padding-right:15px;	
+	/*padding-left:15px;
+	padding-right:15px;	*/
 }
 
 #top_box {
@@ -121,3 +121,9 @@ a:visited {
 	color: #888686;
 }
 
+#slideshow { 
+	padding-left:0;
+	margin-left:0;
+	padding-right:90px;	
+
+}
