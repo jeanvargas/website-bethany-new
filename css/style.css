@@ -127,11 +127,13 @@ a:visited {
 }
 
 #blue {
+	position: relative;
 	background: #70a590;
 	height: 30px;
 }
 
 .footer {
+	position: relative;
 	background: #3A3939;
 	height: 150px;
 	font-family: Lato;
@@ -165,4 +167,27 @@ a:visited {
 	padding-bottom:30px;
 }
 
+#links {
+	font-family: 'PT Serif Caption', serif;
+	font-size:18px;
+	padding: 15px 15px 15px 15px;
+}
+
+#audio_messages {
+	background:#fff;
+	position: relative;
+	padding: 15px 15px 15px 15px;
+}
+
+#message {
+		position: relative;
+		background: #BCBCBC;
+		padding: 15px 15px 15px 15px;
+}
+
+#title {
+	font-family: Lato;
+	color:#615853;
+	text-transform:uppercase;
+}
 
