@@ -250,10 +250,11 @@ a:visited {
   padding: 15px 15px 15px 15px;
 }
 
-/*.child-text {
-	border: 1px solid #615853;
-	padding: 15px 15px 15px 15px;
-}*/
+.child-text {
+	color: #615853;
+	font-family: 'PT Serif', serif;
+	font-size: 18px;
+}
 
 .img-circle {
 	border-radius: 60%;
