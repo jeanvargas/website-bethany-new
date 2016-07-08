@@ -178,6 +178,26 @@ a:visited {
 	padding: 30px 30px 30px 30px;
 }
 
+.statement {
+	background:#fff;
+	position: relative;
+	padding: 30px 30px 30px 30px;
+}
+
+.statement-article {
+	font-family: 'PT Serif', serif;
+	font-size: 16px;
+	color:#707070;
+}
+
+.article-start {
+	text-transform:uppercase;
+	text-shadow: 1px 1px 0px #928F8F;
+	font-family: 'Montserrat', sans-serif;
+	font-size:24px;
+	color:#70a590;
+}
+
 .message {
 		position: relative;
 		background: #BCBCBC;
